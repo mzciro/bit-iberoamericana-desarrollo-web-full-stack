@@ -1,0 +1,554 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    margin: auto;
+    width: 1500px;
+    height: 756px;
+    background-color: rgb(0, 0, 0);
+}
+
+#welcome{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 800px;
+    width: 650px;
+    height: 50px;
+    padding-top:6px;
+    background-color: rgb(189, 189, 189);
+}
+
+.button{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 800px;
+    width: 250px;
+    height: 250px;
+    padding-top:6px;
+    background-color: rgb(189, 189, 189);      
+}
+
+#startup{
+    margin-top: 280px;
+    left: 190px; 
+}
+
+#register{
+    position: relative;
+    margin: auto;
+    width: 1500px;
+    height: 756px;
+    background-color: rgb(138, 138, 138);
+}
+
+#box{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 80px;
+    width: 600px;
+    height: 635px;
+    padding-top:6px;
+    background-color: rgb(0, 0, 0);
+    }
+
+#account{
+        position: absolute;
+        margin-top: 140px;
+        margin-left: 280px;
+        width: 200px;
+        height: 40px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+    
+#name{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 120px;
+    width: 520px;
+    height: 50px;
+    padding-top:6px;
+    background-color: rgb(189, 189, 189);
+    }
+
+#lastname{
+        position: absolute;
+        margin-top: 280px;
+        margin-left: 120px;
+        width: 520px;
+        height: 50px;
+        padding-top:6px;
+        background-color: rgb(189, 189, 189);
+        }
+
+#birthdate{
+        position: absolute;
+        margin-top: 340px;
+        margin-left: 120px;
+        width: 520px;
+        height: 50px;
+        padding-top:6px;
+        background-color: rgb(189, 189, 189);
+        }
+
+#e-mail{
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 120px;
+        width: 520px;
+        height: 50px;
+        padding-top:6px;
+        background-color: rgb(189, 189, 189);
+        }
+
+#level{
+        position: absolute;
+        margin-top: 460px;
+        margin-left: 120px;
+        width: 520px;
+        height: 50px;
+        padding-top:6px;
+        background-color: rgb(189, 189, 189);
+        }
+
+#create{
+    float: left;
+    width: 520px;
+    height: 30px;
+    margin: 610px 120px;
+    background-color: rgb(189, 189, 189);
+    border-top-left-radius:     5em 6em;
+    border-top-right-radius:    5em 6em;
+    border-bottom-right-radius: 5em 6em;
+    border-bottom-left-radius:  5em 6em;
+    }
+
+#inset{
+    float: left;
+    margin-top: 60px;
+    margin-left: 500px;
+    width: 918px;
+    height: 635px;
+    padding-top:6px;
+    background-color: rgb(94, 94, 94);
+    }
+
+#logo{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 1010px;
+    width: 100px;
+    height: 80px;
+    padding-top:6px; 
+    background-color: rgb(189, 189, 189);
+}
+
+#info{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 812px;
+    width: 500px;
+    height: 50px;
+    padding-top:6px; 
+    background-color: rgb(189, 189, 189);
+}
+
+#username{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 909px;
+    width: 300px;
+    height: 30px;
+    padding-top:6px; 
+    background-color: rgb(189, 189, 189);
+}
+
+#enter{
+    float: left;
+    width: 130px;
+    height: 35px;
+    margin: 290px 990px;
+    background-color: rgb(189, 189, 189);
+    border-top-left-radius:     5em 6em;
+    border-top-right-radius:    5em 6em;
+    border-bottom-right-radius: 5em 6em;
+    border-bottom-left-radius:  5em 6em;
+}
+
+#pass{
+    position: relative;
+    margin: auto;
+    width: 1500px;
+    height: 756px;
+    background-color: rgb(0, 0, 0);
+}
+
+#tittle{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 500px;
+    width: 500px;
+    height: 100px;
+    padding-top:6px;
+    background-color: rgb(189, 189, 189);
+    }
+
+#explore{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 545px;
+    width: 400px;
+    height: 80px;
+    padding-top:6px;
+    background-color: rgb(189, 189, 189);
+    }
+
+#code{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 575px;
+    width: 170px;
+    height: 30px;
+    padding-top:6px;
+    background-color: rgb(189, 189, 189);
+    }
+
+#number{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 745px;
+    width: 170px;
+    height: 30px;
+    padding-top:6px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius:    5em 6em;
+    border-bottom-right-radius: 5em 6em;
+    }
+
+#icon1{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 200px;
+    width: 40px;
+    height: 40px;
+    padding-top:6px;
+    background-color: rgb(255, 255, 255);
+    }
+
+#icon2{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 1200px;
+    width: 40px;
+    height: 40px;
+    padding-top:6px;
+    background-color: rgb(255, 255, 255);
+    }
+
+#pageinside{
+    position: relative;
+    margin: auto;
+    width: 1500px;
+    height: 756px;
+    background-color: rgb(138, 138, 138);
+    }
+
+    #aboutus{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 75px;
+        width: 150px;
+        height: 25px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #portfolio{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 249px;
+        width: 139px;
+        height: 25px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #logotype{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 660px;
+        width: 120px;
+        height: 120px;
+        padding-top:6px; 
+        background-color: rgb(255, 255, 255);
+    }
+
+    #start{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 1052px;
+        width: 60px;
+        height: 25px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #comic{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 1137px;
+        width: 80px;
+        height: 25px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #certificate{
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 1241px;
+        width: 120px;
+        height: 25px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #more{
+        position: absolute;
+        margin-top: 88px;
+        margin-left: 1385px;
+        width: 10px;
+        height: 10px;
+        padding-top:6px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 100%;
+        }
+        
+        #more1{
+            position: absolute;
+            margin-top: 88px;
+            margin-left: 1399px;
+            width: 10px;
+            height: 10px;
+            padding-top:6px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 100%;
+            }
+
+        #more2{
+            position: absolute;
+            margin-top: 88px;
+            margin-left: 1413px;
+            width: 10px;
+            height: 10px;
+            padding-top:6px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 100%;
+            }
+    
+    #heading{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 75px;
+        width: 380px;
+        height: 50px;
+        padding-top:6px;
+        background-color: rgb(189, 189, 189);
+        }
+            
+    #description{
+        position: absolute;
+        margin-top: 430px;
+        margin-left: 75px;
+        width: 500px;
+        height: 130px;
+        padding-top:6px;
+        background-color: rgb(189, 189, 189);
+        }
+    
+    #scout{
+        float: left;
+        width: 300px;
+        height: 50px;
+        margin: 645px 75px;
+        background-color: rgb(255, 255, 255);
+        border-top-left-radius:     5em 6em;
+        border-top-right-radius:    5em 6em;
+        border-bottom-right-radius: 5em 6em;
+        border-bottom-left-radius:  5em 6em;
+        }
+
+    #personal{
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 978.5px;
+            width: 11px;
+            height: 11px;
+            padding-top:6px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 100%;
+            }
+    
+            #personal1{
+                position: absolute;
+                margin-top: 200px;
+                margin-left: 993px;
+                width: 10px;
+                height: 10px;
+                padding-top:6px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 100%;
+                }
+
+            #personal2{
+                position: absolute;
+                margin-top: 200px;
+                margin-left: 1006px;
+                width: 10px;
+                height: 10px;
+                padding-top:6px;
+                background-color: rgb(250, 250, 250);
+                border-radius: 100%;
+                }
+
+            #personal3{
+                    position: absolute;
+                    margin-top: 200px;
+                    margin-left: 1019px;
+                    width: 10px;
+                    height: 10px;
+                    padding-top:6px;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 100%;
+                    }
+
+#pageinside1{
+    position: relative;
+    margin: auto;
+    width: 1500px;
+    height: 756px;
+    background-color: rgb(0, 0, 0);
+    }
+
+    #icon{
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 660px;
+        width: 120px;
+        height: 120px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #illustration{
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 570px;
+        width: 300px;
+        height: 25px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #cart{
+        position: absolute;
+        margin-top: 305px;
+        margin-left: 445px;
+        width: 550px;
+        height: 30px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #iconcomic{
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 200px;
+        width: 120px;
+        height: 120px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+        border-radius: 100%;
+    }
+
+    #icongame{
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 660px;
+        width: 120px;
+        height: 120px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+        border-radius: 100%;
+    }
+
+    #iconcertificate{
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 1120px;
+        width: 120px;
+        height: 120px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+        border-radius: 100%;
+    }
+
+    #line{
+        position: absolute;
+        margin-top: 556px;
+        margin-left: 200px;
+        width: 1000px;
+        height: 0.5px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #read{
+        position: absolute;
+        margin-top: 640px;
+        margin-left: 208px;
+        width: 100px;
+        height: 25px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #dareyourself{
+        position: absolute;
+        margin-top: 640px;
+        margin-left: 668px;
+        width: 100px;
+        height: 25px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+
+    #certification{
+        position: absolute;
+        margin-top: 640px;
+        margin-left: 1130px;
+        width: 100px;
+        height: 25px;
+        padding-top:6px; 
+        background-color: rgb(189, 189, 189);
+    }
+    
+    
+
+    
