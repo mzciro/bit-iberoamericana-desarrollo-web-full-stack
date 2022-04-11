@@ -30,14 +30,14 @@
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li class="nav-item">
                             <a id="private" class="nav-link disabled" href="privado.html">
-                                <p class="p"> Privado</p>
+                                <p class="p"> Private</p>
                             </a>
                         </li>
 
                         <!-- Button trigger modal--> 
                         <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal"
                             data-bs-target="#staticBackdrop">
-                            Iniciar Sesión
+                            Log In
                         </button>    
                     </ul>
                 </div>
@@ -56,8 +56,6 @@
                 </div>
             </div>
         </header>
-
-        
 
         <!-- About-->
         <section class="about-section text-center" id="about">
@@ -129,42 +127,41 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Iniciar Sesión</h5>
+                    <h5 class="modal-title" id="staticBackdropLabel">Log In</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="mb-3">
-                            <label for="inUsername" class="form-label">Nombre de
-                                usuario</label>
+                            <label for="inUsername" class="form-label">Username</label>
                             <input type="email" class="form-control" id="inUsername"
                                 aria-describedby="emailHelp" />
                         </div>
                         <div class="mb-3">
-                            <label for="inPassword" class="form-label">Contraseña</label>
+                            <label for="inPassword" class="form-label">Password</label>
                             <input type="password" class="form-control" id="inPassword"  />
                             <img src="./assets/img_01/eyes.png" alt="icono" id="eye">
                         </div>
                         <button id="submitBtn" type="submit" class="btn btn-secondary">
-                            Entrar
+                            Enter
                         </button>
                     </form>
                 
                       
                      <p id="success" class="alert alert-success mt-2 d-none" role="alert">
                         
-                        <img src="./assets/img_01/Check.png" alt="">  Ya puedes entrar al contenido privado
+                        <img src="./assets/img_01/Check.png" alt=""> You already have access to private content.
                     
                     </p> 
                     <p id="error" class="alert alert-danger mt-2 d-none" role="alert">
-                        <img src="./assets/img_01/error.png" alt="">Usuario y/o contraseña incorrectos
+                        <img src="./assets/img_01/error.png" alt="">Incorrect username and/or password.
                     </p>
                 </div>
                 <div class="modal-footer">
                     <button id="closeBtn" type="button" class="btn btn-secondary"
                         data-bs-dismiss="modal">
-                        Cerrar
+                        Close
                     </button>
                 </div>
             </div>
